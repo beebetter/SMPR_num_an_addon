@@ -77,6 +77,7 @@ namespace Modules.ModuleNumericalAnalysis
                 }
        
             }
+            label4.Visible = true;
             answer.Text = "";
             for (int i = 0; i < new_values.Count; i++)
             {

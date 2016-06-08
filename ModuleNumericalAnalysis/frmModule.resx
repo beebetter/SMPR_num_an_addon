@@ -140,14 +140,17 @@
   <data name="btnFixedPointIteration.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 35</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>101, 256</value>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="button3.Text" xml:space="preserve">
     <value>Parameter Continuation</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 36</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Seidel Method</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 36</value>
@@ -164,20 +167,19 @@
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;btnFixedPointIteration.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 33</value>
   </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Picard Iteration</value>
+  </data>
   <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
@@ -189,11 +191,8 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>292, 36</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 256</value>
   </data>
   <data name="btnFixedPointIteration.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -222,9 +221,6 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmModule</value>
   </data>
-  <data name="&gt;&gt;btnFixedPointIteration.Name" xml:space="preserve">
-    <value>btnFixedPointIteration</value>
-  </data>
   <data name="&gt;&gt;btnFixedPointIteration.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -237,47 +233,51 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 29</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;btnFixedPointIteration.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 29</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 200</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 143</value>
+  </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Seidel Method</value>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnFixedPointIteration.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 143</value>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
@@ -285,13 +285,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>frmModule</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 200</value>
+  <data name="&gt;&gt;btnFixedPointIteration.Name" xml:space="preserve">
+    <value>btnFixedPointIteration</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Picard Iteration</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 36</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnFixedPointIteration.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

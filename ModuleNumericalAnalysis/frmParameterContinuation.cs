@@ -83,6 +83,11 @@ namespace Modules.ModuleNumericalAnalysis
                 answer.Text += variables[i] + "=" + new_values[i].ToString() + ";";
             }
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
