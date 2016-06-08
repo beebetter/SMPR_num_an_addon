@@ -124,13 +124,16 @@
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnFixedPointIteration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>
@@ -142,9 +145,6 @@
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Parameter Continuation</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>292, 36</value>
@@ -194,8 +194,8 @@
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>101, 256</value>
   </data>
-  <data name="btnFixedPointIteration.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Parameter Continuation</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -298,6 +298,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru</value>
+    <value>en-US</value>
   </metadata>
 </root>
